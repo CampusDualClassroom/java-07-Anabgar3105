@@ -21,17 +21,10 @@ public class Exercise07 {
     // Si NO lo encuentra, que imprima el siguiente mensaje → El elemento X no se encuentra en la lista.
     public static void positionInAList(int num) {
         List<Integer> nums = new ArrayList<>();
-        nums.add(10);
-        nums.add(9);
-        nums.add(8);
-        nums.add(7);
-        nums.add(6);
-        nums.add(5);
-        nums.add(4);
-        nums.add(3);
-        nums.add(2);
-        nums.add(1);
-        nums.add(0);
+        for(int i=0; i<11; i++){
+            nums.add(i);
+        }
+     
         if (nums.contains(num)) {
             System.out.println("El elemento " + num + " se encuentra en la posición: " + nums.indexOf(num));
         } else {
