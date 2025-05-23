@@ -21,7 +21,7 @@ public class Exercise07 {
     // Si NO lo encuentra, que imprima el siguiente mensaje → El elemento X no se encuentra en la lista.
     public static void positionInAList(int num) {
         List<Integer> nums = new ArrayList<>();
-        for (int i = 1; i < 11; i++) {
+        for (int i = 10; i >=1; i--) {
             nums.add(i);
         }
 
